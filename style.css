@@ -1,0 +1,25 @@
+#wrapper{
+    
+    align-items: center;
+    width: 300px;
+    border: 20px solid black;
+    position:fixed;
+    bottom:100px;
+    z-index:1000;
+    right:100px;
+    background-color:green;
+}
+#number1,#number2{
+    padding:5px;
+    border-radius:5px;
+}
+#result,#btn_add{
+    border:5px solid red;
+    width:100px;
+    height:50px;
+}
+#btn_add:hover{
+    background-color:aliceblue;
+    color:black;
+}
+#map { height: 100vh; }
